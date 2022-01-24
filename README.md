@@ -64,3 +64,24 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+------------------------------------------------------------
+
+Step 1: create project laravel by command:
+composer create-project laravel/laravel example-app
+Step 2: run server to display project by command:
+cd example-app
+php artisan serve
+Step 3: synchronized with github
+- git init
+- git add .
+- git commit -m "first commit"
+- git remote add origin https://github.com/thainh92/assignment-laravel.git
+- git push -u origin master
+  Step 4: make controller with command:
+  create database on mysql
+  php artisan make:controller DBController
+
+Step 4: make Model (tạo đối tượng) and migrate (tạo table)
+php artisan make:model User -m
+
